@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss/main.scss:../DeejpotterBlazorServer/wwwroot/css/bootstrap.css",
+    "build": "sass scss/main.scss:../DeejpotterBlazorServer/wwwroot/css/bootstrap.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.7",
+    "scss": "^0.2.4"
+  }
+}
